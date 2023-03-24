@@ -1,3 +1,4 @@
+#Reorder Routes to Make All Paths Lead to the City Zero
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
         lookup, graph = set(), collections.defaultdict(list)
